@@ -1,0 +1,110 @@
+@import "compass";
+@import "theme_variables";
+.header_userinfo_mobile {
+	@media (max-width:$screen-xs  - 1) {
+		float:none;
+		display:inline-block;
+	}
+	.top-userinfo {
+		display:inline-block;
+		position: relative;
+		&:hover .top-links {
+			color:$hover-color;
+		}
+		.top-links {
+			font-weight: normal;
+			padding:0px 15px;
+			line-height: 35px;
+			color: #434343;
+			text-shadow: none;
+			cursor: pointer;
+			font-size:12px;
+			&:after {
+				content: "\f107";
+				font-family: $font-icon;
+				font-size: 14px;
+				line-height: 1;
+				vertical-align:middle;
+				padding-left: 7px;
+			}
+		}
+		ul {
+			display: none;
+			position: absolute;
+			padding:0;
+			top: 35px;
+			left:0;
+			min-width: 157px;
+			background:$light-background;
+			@include pos-box-shaw;
+			z-index: 2;
+			li {
+				color:#434343;
+				line-height: 40px;
+				font-size: 12px;
+				a,
+				> span {
+					padding: 0 15px;
+					display: block;
+					color: #434343;
+				}
+				&.selected, &:hover a {
+					color:$hover-color;
+				}
+				
+			}
+		}
+	}
+}
+.header_userinfo {
+	float:right;
+	#header_links li{
+		float:left;
+		border-left:$main_border;
+		&:last-child {
+			border-right:$main_border;
+		}
+		a {
+			white-space: nowrap;
+			display: block;
+			color: #999999;
+			text-transform: capitalize;
+			text-decoration: none;
+			width:35px;
+			font-size:0;
+			padding: 0 10px;
+			text-align:center;
+			&:hover {
+				color:$light-text-color;
+				padding: 0 20px;
+				font-size: 12px;
+				text-decoration: none;
+				background:$main-background;
+				width: auto;
+				@include pos-transition(300ms);
+				&:before {
+					padding-right:7px;
+				}
+			}
+			&:before {
+				display: inline-block;
+				font-family:$font-icon;
+				font-size: 12px;
+				line-height: 35px;
+			}
+			&.link-myaccount:before {
+				content: "\f013";
+			}
+			&.link-checkout:before {
+				content: "\f046";
+			}
+			&.link-wishlist:before {
+				content: "\f004";
+			}
+			&.login:before,&.logout:before {
+				content: "\f13e";
+			}
+		}
+	}
+	
+}
