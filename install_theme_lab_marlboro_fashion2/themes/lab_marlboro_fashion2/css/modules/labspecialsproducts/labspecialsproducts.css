@@ -1,0 +1,217 @@
+.countdown{
+	padding: 0;
+    text-align: left;
+	margin-bottom:10px;
+	display:inline-block;
+}
+.countdown-section{
+	background: #fff none repeat scroll 0 0;
+    border: 2px solid #888888;
+    color: #8b8b8b;
+    display: inline;
+    float: left;
+    font-size: 14px;
+    margin: 0 20px 0 0;
+    text-align: center;
+    width: 50px;
+}
+.countdown-section:last-child{
+	margin:0;
+}
+.countdown-amount {
+	color: #000;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px 0 0;
+}
+.countdown-period{
+	color: #666666;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+#pos-special-products .right-block{
+	text-align: right;
+}
+#pos-special-products h5{
+	margin:0 0 20px 0;
+}
+#pos-special-products .product-name{
+	font-size:35px;
+	font-family: "Montserrat",sans-serif;
+	line-height: 1;
+}
+
+#pos-special-products .availability{
+	margin-bottom:20px;
+	display: block;
+}
+#pos-special-products .availability span{
+	background: none;
+    border: medium none;
+    color: #010101;
+	font-family: "Montserrat",sans-serif;
+    font-size: 25px;
+    line-height: 1;
+}
+#pos-special-products  .lab-price{
+	margin-bottom:20px;
+}
+#pos-special-products  .lab-price .price{
+	color:#010101;
+	font-size:28px;
+	line-height: 1;
+	font-family: "Montserrat",sans-serif;
+}
+#pos-special-products  .lab-price .old-price{
+	font-size:22px;
+	color:#cccccc;
+	line-height: 1;
+	font-family: "Montserrat",sans-serif;
+}
+#pos-special-products.owl-carousel{
+	height:auto;
+}
+
+#special_products.block .title_block span:before,
+#special_products.block .title_block span:after{
+	display:none;
+}
+#special_products.block .title_block{
+	background-color:#ea1616;
+}
+#special_products.block .title_block span{
+	background:none;
+	padding: 0;
+}
+#special_products.block .title_block span i{
+	background:rgba(0, 0, 0, 0.1);
+	line-height: 40px;
+	display: inline-block;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+}
+#special_products  .lab_boxnp a{
+	color:#fff;
+}
+#special_products {
+	position:relative;
+}
+#special_products .price-percent-reduction{
+	background: #ff5858 none repeat scroll 0 0;
+    border: 1px solid #ff5858;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+}
+#special_products .sale{
+	background: #ff5858 none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    top:-60px;
+    width: 40px;
+}
+#special_products .sale:before{
+	
+	border:10px solid #ff5858;
+    border-color:#ff5858 transparent transparent #ff5858;
+    bottom: -20px;
+	left:0;
+    content: "";
+    position: absolute;
+}
+#special_products .sale:after{
+	border:10px solid #ff5858;
+    border-color: #ff5858 #ff5858 transparent transparent;
+    bottom: -20px;
+	right:0;
+    content: "";
+    position: absolute;
+}
+#special_products .sale .icon{
+	color: #000;
+    font-size: 28px;
+    left: 0;
+    position: absolute;
+    top: -24px;
+}
+#special_products .actions{
+	 text-align: right;
+}
+#special_products .actions ul{
+	display:inline-block;
+}
+#special_products .actions li{
+	float:left;
+	display:inline;
+	margin:0 0 0 4px;
+}
+#special_products .actions li a{
+	background: #fff;
+    border: medium none;
+    color: #333;
+    display: block;
+    font-size: 20px;
+    height: 50px;
+    line-height: 52px;
+    text-align: center;
+    text-shadow: 0 0 0;
+    width: 50px;
+}
+#special_products .actions li a.checked,
+#special_products .actions li a:hover{
+	background:#666666;
+	color:#fff;
+}
+#special_products  .owl-controls{
+	padding-right: 10px;
+    padding-top: 40px;
+    text-align: right;
+    width: 50%;
+}
+#special_products .owl-pagination{
+	display:inline-block;
+}
+#special_products  .owl-pagination .owl-page{
+	float:left;
+	display:inline;
+	margin:0 2px;
+}
+#special_products .owl-pagination .owl-page span{
+	background: #fff none repeat scroll 0 0;
+    border: 2px solid #888888;
+    border-radius: 100%;
+    display: block;
+    height: 12px;
+    width: 12px;
+}
+#special_products .owl-pagination .owl-page:hover  span,
+#special_products .owl-pagination .owl-page.active  span{
+	background-color:#888888;
+	border-color:#888888;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+@media (max-width: 768px){
+	#special_products  .owl-controls{
+		width:100%;
+	}
+}

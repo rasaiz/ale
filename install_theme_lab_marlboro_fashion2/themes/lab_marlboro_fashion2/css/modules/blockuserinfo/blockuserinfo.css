@@ -1,0 +1,18 @@
+.header_user_info {}
+  .header_user_info a {
+	color: #333333;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    line-height: 40px;
+    padding: 0 10px;
+    text-transform: uppercase;}
+    @media (max-width: 479px) {
+      .header_user_info a {
+        font-size: 11px; } }
+    .header_user_info.lab-user a, 
+    .header_user_info a:hover, 
+	.header_user_info a.active {
+      color: #ff4f4f; }
+
+/*# sourceMappingURL=blockuserinfo.css.map */
