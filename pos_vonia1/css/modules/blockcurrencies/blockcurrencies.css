@@ -1,0 +1,10 @@
+#currencies-block-top { float: left; position: relative; }
+#currencies-block-top span.firstWord { display: none; }
+#currencies-block-top:hover div.current { color: #65AB74; }
+#currencies-block-top div.current { font-weight: normal; border-right: 1px solid #e5e5e5; padding: 0 15px; line-height: 35px; color: #434343; text-shadow: none; cursor: pointer; font-size: 12px; }
+#currencies-block-top div.current strong { font-weight: normal; }
+#currencies-block-top div.current:after { content: "\f107"; font-family: "FontAwesome"; font-size: 14px; line-height: 1; vertical-align: middle; padding-left: 7px; }
+#currencies-block-top ul { display: none; position: absolute; background: white; padding: 5px 15px; top: 35px; left: 0; min-width: 157px; -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); z-index: 2; }
+#currencies-block-top ul li { color: #434343; line-height: 30px; font-size: 12px; }
+#currencies-block-top ul li a, #currencies-block-top ul li > span { padding: 0; display: block; color: #959595; }
+#currencies-block-top ul li.selected, #currencies-block-top ul li:hover a { color: #65AB74; }
